@@ -1,0 +1,9 @@
+<div class="list-group form-group">
+	<a href="#" class="list-group-item">List Group item 1</a>
+	<a href='#' class="list-group-item">
+		<input placeholder={{inputPlaceholder}} type="text" class="form-control" #searchboxInput (keyup)="color=searchboxInput.value" />
+	</a>
+	<a href='#' class="list-group-item">
+		<button type="button" class="btn btn-primary" (click)="clearSearchbox(searchboxInput)">Clear</button>
+	</a>
+</div>
